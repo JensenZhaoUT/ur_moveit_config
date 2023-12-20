@@ -30,21 +30,21 @@ joint_limits:
     has_acceleration_limits: false
     max_acceleration: 0
     has_position_limits: true
-    max_position: !degrees -45.0
-    min_position: !degrees -105.0
+    max_position: !degrees -25.0
+    min_position: !degrees -125.0
   wrist_2_joint:
     has_velocity_limits: true
     max_velocity: 1
     has_acceleration_limits: false
     max_acceleration: 0
     has_position_limits: true
-    max_position: !degrees 110.0
-    min_position: !degrees 70.0
+    max_position: !degrees 130.0
+    min_position: !degrees 50.0
   wrist_3_joint:
     has_velocity_limits: true
     max_velocity: 1
     has_acceleration_limits: false
     max_acceleration: 0
     has_position_limits: true
-    max_position: !degrees 350
-    min_position: !degrees -350
+    max_position: !degrees 355
+    min_position: !degrees -355
