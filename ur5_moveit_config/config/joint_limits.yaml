@@ -46,5 +46,5 @@ joint_limits:
     has_acceleration_limits: false
     max_acceleration: 0
     has_position_limits: true
-    max_position: !degrees 350
-    min_position: !degrees -350
+    max_position: !degrees 300
+    min_position: !degrees -300
